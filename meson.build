@@ -31,7 +31,6 @@ granite_dep = dependency('granite', version: '>=0.5')
 gtk_dep = dependency('gtk+-3.0')
 gudev_dep = dependency('gudev-1.0')
 json_glib_dep = dependency('json-glib-1.0')
-soup_dep = dependency('libsoup-2.4')
 
 subdir('data')
 subdir('po')

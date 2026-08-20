@@ -77,7 +77,6 @@ deps = [
     gtk_dep,
     gudev_dep,
     json_glib_dep,
-    soup_dep,
 ]
 
 executable(

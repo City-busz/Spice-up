@@ -45,18 +45,6 @@ modules:
           stable-only: true
           url-template: https://www.freedesktop.org/software/libevdev/libevdev-$version.tar.xz
 
-  - name: libsoup
-    builddir: true
-    buildsystem: meson
-    config-opts:
-      - "-Dtests=false"
-      - "-Dvapi=disabled"
-      - "-Dintrospection=disabled"
-    sources:
-      - type: archive
-        url: https://gitlab.gnome.org/GNOME/libsoup/-/archive/2.68.2/libsoup-2.68.2.tar.gz
-        sha256: a2a44f8b8eb5e145c5dff473f6d8c5b8f1addcf4e6f12223b4705c7fcc6c29b6
-
   - name: spice-up
     buildsystem: meson
     sources:

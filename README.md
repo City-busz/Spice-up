@@ -73,7 +73,6 @@ These dependencies must be present before building
  - `gee-0.8`
  - `gudev-1.0`
  - `libevdev`
- - `libsoup-2.4`
 
 ## Building
 ```

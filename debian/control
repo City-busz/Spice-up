@@ -9,8 +9,7 @@ Build-Depends: cmake,
                libgranite-dev,
                libjson-glib-dev,
                libgudev-1.0-dev,
-               libevdev-dev,
-               libsoup2.4-dev
+               libevdev-dev
 
 Standards-Version: 3.9.6
 Package: com.github.philip-scott.spice-up
