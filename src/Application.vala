@@ -129,7 +129,8 @@ public class Spice.Application : Gtk.Application {
         //Intl.textdomain (TERMINAL_NAME);
 
         Environment.set_application_name (APP_NAME);
-        Environment.set_prgname (APP_NAME);
+        Environment.set_prgname (APP_ID);
+        Gtk.Window.set_default_icon_name (APP_ID);
 
         var application = Spice.Application.instance;
 
